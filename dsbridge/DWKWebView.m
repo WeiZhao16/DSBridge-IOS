@@ -51,6 +51,7 @@
     if (self) {
         super.UIDelegate=self;
     }
+    NSLog(@"he");
     // add internal Javascript Object
     InternalApis *  interalApis= [[InternalApis alloc] init];
     interalApis.webview=self;
